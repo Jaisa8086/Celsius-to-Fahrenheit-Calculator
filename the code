@@ -1,0 +1,14 @@
+print("Metric Conversions")
+print()
+while True or "yes":
+  answer = int(input("Enter a number:  "))
+  print("Calculating...")
+  fahrenheit = (answer*9//5)+32
+  print()
+  print("The current temperature in Fahrenheit is", fahrenheit, "℉")
+  print()
+  addAnother = input("Need another calculation?:  ")
+  print()
+  if addAnother.lower() == "no":
+    break
+print("See ya!")
